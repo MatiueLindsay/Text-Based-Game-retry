@@ -1,0 +1,21 @@
+body{
+    background-image: linear-gradient(to right, darkred, black, darkblue);
+    
+}
+
+#monster,#game,#mann,#seng{
+    display: none;
+    
+}
+
+.images img{
+    border-radius: 100px;
+}
+
+.images {
+    position: relative;
+}
+#p1{
+    color: white;
+    text-align: center;
+}
