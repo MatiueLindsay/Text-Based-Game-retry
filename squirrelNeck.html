@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>helsa zinge</title>
+    <link rel="stylesheet" href="css/javascript.css">
+</head>
+
+<body>
+    
+    <div class="images"> 
+        <div id="cabin">
+           <div class="container">
+            <h1 id="h1">Monster Text Game</h1>
+            <img src="images/cabin.png" height="300rem" width="600rem" alt="cabin">
+        <p id="p1">You wake up on a hard, wooden floor. Your head aches, and the cold bites at your skin. A dim fire crackles nearby, its light dancing on the rough cabin walls.
+
+                The air smells of smoke and damp wood. Outside, the wind howls, rattling the loose door that's hanging open just a crack.
+                
+                You can stay here where it’s warm... or step outside into the unknown. </p><br>
+                <div class="buttons"><button onclick="cabin(1)"> Leave cabin</button>
+            <button onclick="cabin(2)"> stay in cabin</button></div>
+            
+            
+           </div>
+            
+        </div>
+        <div id="monster">
+            <img id="monsterimg" src="images/monster.png" alt="monster">
+            <p id="p2">The wind howls outside as you stand by the cabin window. Fog clings to the glass, but something moves beyond it.
+
+                A shape steps into view — massive, hunched, watching you. Two glowing red eyes pierce the night, locking onto yours. Your breath catches. It sees you.
+                
+                The monster tilts its head, then takes a step forward.
+                
+                It’s coming.
+                
+                Panic surges. You glance around the room.</p>
+            <button onclick="monster(1)">Hide under the bed</button>
+            <button onclick="monster(2)">Leave the cabin</button>
+     
+        </div>
+        <div id="game">
+            <img src="images/game over.png" alt="game over">
+        
+
+
+        </div>
+        <div class="end"></div>
+        <div id="seng">
+            <img id="bedseng" src="images/underbed.png" alt="seng">
+            <p id="text">You hid under the bed. Congrats you survived, or did you?</p>
+            <div id="endbuttons">
+            <button onclick="seng()">Restart</button></div>
+
+
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Martin Informasjons teknologi og medieproduksjon. All rights reserved.
+    </footer>
+
+    <div><img id="bed" src="images/underbed.png" alt="bed"></div>
+
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>
